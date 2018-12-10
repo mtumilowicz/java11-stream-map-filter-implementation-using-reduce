@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/java11-stream-map-filter-implementation-using-reduce.svg?branch=master)](https://travis-ci.com/mtumilowicz/java11-stream-map-filter-implementation-using-reduce)
+
 # java11-stream-map-filter-implementation-using-reduce
 We will show how to implement stream's `map` / `filter` 
 using only `reduce`.
