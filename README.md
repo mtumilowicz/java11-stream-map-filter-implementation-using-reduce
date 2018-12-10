@@ -10,10 +10,10 @@ In the `Stream API` we have three reduce methods:
             BiFunction<U, ? super T, U> accumulator,
             BinaryOperator<U> combiner)`
                     
-First two are inadequate as they return Optional<T> or
+First two are inadequate as they return `Optional<T>` or
 has `BinaryOperator<T>` as an accumulator.
 
-So we take third method:
+So we take third method and provide requested implementations:
 * map
     ```
     static <T, R> Stream<R> map(Stream<T> stream, Function<T, R> mapper) {
