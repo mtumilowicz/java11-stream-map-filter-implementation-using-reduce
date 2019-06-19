@@ -13,7 +13,7 @@ In the `Stream API` we have three reduce methods:
             BinaryOperator<U> combiner)`
                     
 First two are inadequate as they return `Optional<T>` or
-return `T` (same type as declared in the stream - but we want new type `U ~ Stream<T>`).
+return `T`, which is the same type as declared in the given stream - but as an output we want a new type `U ~ Stream<T>`).
 
 So we take third method and provide requested implementations:
 * map
